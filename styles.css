@@ -41,7 +41,20 @@ h1{
     padding: 20px 25px;
     text-decoration: none;
     font-size: 20px;
-}
+    
+        padding: 10px 20px;       
+        border: none;              
+        background-color: #4CAF50; 
+        color: white;            
+        border-radius: 20px;       
+        cursor: pointer;          
+        transition: background-color 0.3s; 
+    }
+    
+    .cuerpo a.active {
+        background-color: #45a049;  
+    }
+
 
 
 /* PÁGINA MENÚ */
